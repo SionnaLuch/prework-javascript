@@ -42,8 +42,8 @@ else if ( computerMove == 'kamień' && playerMove =='nożyce'){
 else if (computerMove == 'kamień' && playerMove == 'kamień'){
   printMessage('Remis!');
 }
-else if (computerMove =='kamień' && playerMove =='ruch nieznany'){
-  printMessage('fail');
+else if (computerMove =='kamień' && playerMove =='nieznany ruch'){
+  printMessage('Fail');
 }
 
 else if (computerMove =='papier' && playerMove =='papier'){
@@ -55,8 +55,8 @@ else if (computerMove =='papier' && playerMove =='nożyce'){
 else if (computerMove =='papier' && playerMove =='kamień'){
   printMessage('Ja wygrywam');
 }
-else if (computerMove =='papier' && playerMove =='ruch nieznany'){
-  printMessage('fail');
+else if (computerMove =='papier' && playerMove =='nieznany ruch'){
+  printMessage('Fail');
 }
 else if (computerMove =='nożyce' && playerMove =='kamień'){
   printMessage('Ty wygrywasz!');
@@ -67,6 +67,6 @@ else if (computerMove =='nożyce' && playerMove =='papier'){
 else if (computerMove =='nożyce' && playerMove =='nożyce'){
   printMessage('Remis');
 }
-else if (computerMove =='nożyce' && playerMove =='ruch nieznany'){
-  printMessage('fail');
+else if (computerMove =='nożyce' && playerMove =='nieznany ruch'){
+  printMessage('Fail');
 }
