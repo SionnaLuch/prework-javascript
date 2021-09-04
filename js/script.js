@@ -26,7 +26,7 @@ function playGame(playerInput){
     else if (argComputerMove == argPlayerMove){
       printMessage('Remis!');
     }
-    else if (argComputerMove == 'kamień','papier','nożyce' && argPlayerMove =='nieznany ruch'){
+    else if (argPlayerMove =='nieznany ruch'){
       printMessage('Fail');
     }
     else if (argComputerMove =='papier' && argPlayerMove =='nożyce'){
